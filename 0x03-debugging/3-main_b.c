@@ -1,4 +1,3 @@
-carrie@ubuntu:/debugging$ cat 3-main_a.c
 #include <stdio.h>
 #include "main.h"
 
