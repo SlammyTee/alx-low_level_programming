@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdio.h>
 
 /**
  * binary_to_uint - A finction that converts binary number

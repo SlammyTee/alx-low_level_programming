@@ -1,18 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-  * print_binary - Prints the binary representation of a number
-  *
-  * @n: The number to be printed in binary
-  */
-
-void print_binary(unsigned long int n)
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	/*when n is > 1 means it's not binary*/
-	if (n > 1)
-		/* recursion, continously shift right by one bit*/
-		print_binary(n >> 1);
-
-	/*bitwise & of the binary with 1 added with 0 */
-	_putchar((n & 1) + '0');
+    print_binary(0);
+    printf("\n");
+    print_binary(1);
+    printf("\n");
+    print_binary(98);
+    printf("\n");
+    print_binary(1024);
+    printf("\n");
+    print_binary((1 << 10) + 1);
+    printf("\n");
+    return (0);
 }
